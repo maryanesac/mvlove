@@ -1,0 +1,50 @@
+print("bem vindo a loja da mary")
+a = float(input('quantos produtos deseja:'))
+b = float(input('valor dos produtos desejados:'))
+c = (a * b)
+print('total  apagar é:', + c)
+
+number1 = int(input("Digite o primeiro número: "))
+number2 = int(input("Digite o segundo número: "))
+number3 = int(input("Digite o terceiro número: "))
+
+largest_number = number1
+
+if number2 > largest_number:
+    largest_number = number2
+
+if number3 > largest_number:
+    largest_number = number3
+
+print("O maior número é:", largest_number)
+
+number1 = int(input("Digite o primeiro número: "))
+number2 = int(input("Digite o segundo número: "))
+number3 = int(input("Digite o terceiro número: "))
+#max ou min
+largest_number = max (number1, number2, number3)
+
+# Imprimir o resultado.
+print("O maior número é:", largest_number)
+
+hat_list = [1, 2, 3, 4, 5] # Esta é uma lista atual de números ocultos no hat.
+print(hat_list)
+print ("substitua o numero do meio")
+
+hat_list[-3] = 10 #numero que vai substituir
+
+print ("Conteúdo da nova lista:", hat_list)
+del hat_list[4]
+# Removendo o ultimo elemento da lista.
+print ("Nova lista sem o ultimo numero:", hat_list)
+#novo comprimento da lista
+print ("Comprimento da nova lista:", len (hat_list))
+
+
+def introduction(first_name, last_name):
+    print("Olá meu nome é", first_name, last_name)
+
+
+introduction("Skywalker", "Luke")
+introduction("Quick", "Jesse")
+introduction("Kent", "Clark")

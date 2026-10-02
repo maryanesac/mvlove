@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap);
+
+
+h1{ 
+    position: central;
+    top: 10px;
+    border: 1px solid #f5a1a1;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: #f5a1a1;
+}
+body {
+    position: central;
+    background-color: #240707;
+    color: #f5cccc;
+    font-family: "cabin", sans-serif;
+    font-weight: 10;
+}
+ p{
+    position: central;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 95rem;
+    text-align: center;
+}
+
+header{
+    padding: 5rem;
+    background-color: #f5cccc;
+    text-align: center;
+    width: 84rem;
+    margin: 5px;
+    border: 10px;
+
+
+}
+
+h2 {
+    position: center;
+    color: #f5a1a1;
+    font-size: 1.2rem;
+    width: 93rem;
+    text-align: center;
+    margin: 10px;
+    padding: 1rem;
+    box-sizing: border-box;
+
+}
+img {
+    width: 15rem;
+    border-radius: 10px;
+    border: 2px solid #f5a1a1;
+    
+}
+summary {
+    text-align: center;
+    gap: 1rem;
+    margin: 15px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+button {
+    position: central;
+    padding: 0.5rem 2rem;
+    background-color: #f5a1a1;
+    color: #240707;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
